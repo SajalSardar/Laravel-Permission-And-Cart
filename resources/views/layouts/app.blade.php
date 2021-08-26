@@ -37,6 +37,17 @@
                         <li class="nav-item"> <a class="nav-link" href="{{ route('all.users') }}">All User</a></li>
                         <li class="nav-item"> <a class="nav-link" href="{{ route('role.permission') }}">Role And Permission</a></li>
                         @endrole
+                       <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Products
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">All Product</a>
+                                <a class="dropdown-item" href="#">Add Product</a>
+                                <a class="dropdown-item" href="#">Category</a>
+                            </div>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
