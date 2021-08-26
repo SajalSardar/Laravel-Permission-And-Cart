@@ -43,7 +43,7 @@
                                 Products
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">All Product</a>
+                                <a class="dropdown-item" href="{{ route('all.products') }}">All Product</a>
                                 <a class="dropdown-item" href="#">Add Product</a>
                                 <a class="dropdown-item" href="#">Category</a>
                             </div>
